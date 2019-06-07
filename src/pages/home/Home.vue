@@ -1,5 +1,8 @@
 <template>
-  <div>Home</div>
+  <div>
+    Home
+    <router-link to="/list">go list</router-link>
+  </div>
 </template>
 
 <script>
