@@ -1,0 +1,98 @@
+{
+	"ret": true,
+	"data": {
+		"city": "西安",
+		"swiperList": [
+			{
+				"id": 1,
+				"imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20195/b0732b5a58a2c613f6202beb35c571d3.jpg_750x200_c6a2ebe2.jpg"
+			},
+			{
+				"id": 2,
+				"imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20193/d7bbc21db442366a882e04ddc984669a.jpg_750x200_85e640d9.jpg"
+			}
+		],
+		"iconList": [
+			{
+				"name": "热门景点热门景点",
+				"img": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png"
+			},
+			{
+				"name": "热门景点",
+				"img": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png"
+			},
+			{
+				"name": "热门景点",
+				"img": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png"
+			},
+			{
+				"name": "热门景点",
+				"img": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png"
+			},
+			{
+				"name": "热门景点",
+				"img": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png"
+			},
+			{
+				"name": "热门景点",
+				"img": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png"
+			},
+			{
+				"name": "热门景点",
+				"img": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png"
+			},
+			{
+				"name": "热门景点",
+				"img": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png"
+			},
+			{
+				"name": "热门景点",
+				"img": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png"
+			},
+			{
+				"name": "热门景点",
+				"img": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png"
+			}
+		],
+		"recommendList": [
+			{
+				"id": "001",
+				"imgUrl": "http://img1.qunarzz.com/sight/source/1507/de/e6ba44d61894c0.jpg_r_640x214_847324d0.jpg",
+				"title": "秦岭野生动物园",
+				"desc": "秦岭野生动物园秦岭野生动物园秦岭野生动物园秦岭野生动物园秦岭野生动物园秦岭野生动物园"
+			},
+			{
+				"id": "002",
+				"imgUrl": "http://img1.qunarzz.com/sight/source/1507/de/e6ba44d61894c0.jpg_r_640x214_847324d0.jpg",
+				"title": "秦岭野生动物园",
+				"desc": "秦岭野生动物园秦岭野生动物园秦岭野生动物园秦岭野生动物园秦岭野生动物园秦岭野生动物园"
+			},
+			{
+				"id": "003",
+				"imgUrl": "http://img1.qunarzz.com/sight/source/1507/de/e6ba44d61894c0.jpg_r_640x214_847324d0.jpg",
+				"title": "秦岭野生动物园",
+				"desc": "秦岭野生动物园秦岭野生动物园秦岭野生动物园秦岭野生动物园秦岭野生动物园秦岭野生动物园"
+			}
+		],
+		"weekendList": [
+			{
+				"id": "001",
+				"imgUrl": "http://img1.qunarzz.com/sight/source/1507/de/e6ba44d61894c0.jpg_r_640x214_847324d0.jpg",
+				"title": "秦岭野生动物园",
+				"desc": "秦岭野生动物园秦岭野生动物园秦岭野生动物园秦岭野生动物园秦岭野生动物园秦岭野生动物园"
+			},
+			{
+				"id": "002",
+				"imgUrl": "http://img1.qunarzz.com/sight/source/1507/de/e6ba44d61894c0.jpg_r_640x214_847324d0.jpg",
+				"title": "秦岭野生动物园",
+				"desc": "秦岭野生动物园秦岭野生动物园秦岭野生动物园秦岭野生动物园秦岭野生动物园秦岭野生动物园"
+			},
+			{
+				"id": "003",
+				"imgUrl": "http://img1.qunarzz.com/sight/source/1507/de/e6ba44d61894c0.jpg_r_640x214_847324d0.jpg",
+				"title": "秦岭野生动物园",
+				"desc": "秦岭野生动物园秦岭野生动物园秦岭野生动物园秦岭野生动物园秦岭野生动物园秦岭野生动物园"
+			}
+		]
+	}
+}

@@ -2,7 +2,7 @@
 	<div>
 		<div class="title">热销推荐</div>
 		<ul>
-			<li class="item border-bottom" v-for="item in recommendList" :key="item.id">
+			<li class="item border-bottom" v-for="item in list" :key="item.id">
 				<img class="item-img" :src="item.imgUrl" alt="">
 				<div class="item-info">
 					<p class="item-title">{{item.title}}</p>
@@ -17,30 +17,10 @@
 <script>
 export default {
 	name: 'HomeRecommend',
-	data(){
-		return {
-			recommendList:[
-				{
-					id:'001',
-					imgUrl: 'http://img1.qunarzz.com/sight/p0/1508/c5/a017645d82ab89f271fdfb1bd6ecc2e0.water.jpg_200x200_2de772de.jpg',
-					title: '秦岭野生动物园',
-					desc: '秦岭野生动物园秦岭野生动物园秦岭野生动物园秦岭野生动物园秦岭野生动物园秦岭野生动物园'
-				},
-				{
-					id:'002',
-					imgUrl: 'http://img1.qunarzz.com/sight/p0/1508/c5/a017645d82ab89f271fdfb1bd6ecc2e0.water.jpg_200x200_2de772de.jpg',
-					title: '秦岭野生动物园',
-					desc: '秦岭野生动物园秦岭野生动物园秦岭野生动物园秦岭野生动物园秦岭野生动物园秦岭野生动物园'
-				},
-				{
-					id:'003',
-					imgUrl: 'http://img1.qunarzz.com/sight/p0/1508/c5/a017645d82ab89f271fdfb1bd6ecc2e0.water.jpg_200x200_2de772de.jpg',
-					title: '秦岭野生动物园',
-					desc: '秦岭野生动物园秦岭野生动物园秦岭野生动物园秦岭野生动物园秦岭野生动物园秦岭野生动物园'
-				}
-			]
-		}
-	}
+	props: {
+		list: Array
+	},
+
 }
 </script>
 
