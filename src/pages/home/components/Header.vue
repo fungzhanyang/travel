@@ -6,9 +6,12 @@
       <div class="header-input">
 		  <span class="iconfont">&#xe632;</span>
 	  </div>
-      <div class="header-right">{{this.city}}
-		  <span class="iconfont arrow-icon">&#xe615;</span>
-	  </div>
+      <router-link to="/city">
+		  <div class="header-right">
+			{{this.city}}
+			<span class="iconfont arrow-icon">&#xe615;</span>
+		</div>
+	  </router-link>
   </div>
 </template>
 
@@ -26,8 +29,8 @@ export default {
 	.header
 		display flex
 		font-size .32rem
-		height .86rem
-		line-height 0.86rem
+		height $headerHeight
+		line-height $headerHeight
 		background-color $bgc
 		color #fff
 		.header-left
@@ -48,6 +51,7 @@ export default {
 		.header-right
 			width 1.24rem
 			text-align center
+			color #fff
 			.arrow-icon
 				margin-left -.04rem
 				font-size .24rem
