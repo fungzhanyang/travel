@@ -1,6 +1,14 @@
 <template>
   <ul class="list">
-	  <li class="item" v-for="item in cities" :key="item.title">{{item.title}}</li>
+	  <li class="item" 
+	  		v-for="item in cities" 
+			  :key="item.title" 
+			  :ref="item.title"
+			  @click="handleLetterClick"
+			  @touchstart="handletouchStart"
+			  @touchmove="handletouchMove"
+			  @touchend="handletouchEnd"
+		>{{item.title}}</li>
   </ul>
 </template>
 
@@ -9,7 +17,43 @@ export default {
 	props: {
 		cities: Array
 	},
-  	name: 'CityAlphabet'
+	name: 'CityAlphabet',
+	data(){
+		return {
+			touchStatus: false,
+			startY: 0,
+			timer: null
+		}
+	},
+	updated(){
+		this.startY = this.$refs['A'][0].offsetTop
+	},
+	methods: {
+		handleLetterClick(e){
+			this.$emit('change', e.target.innerText)
+		},
+		handletouchStart(e){
+			this.touchStatus = true
+		},
+		handletouchMove(e){
+			if(this.touchStatus){
+				if(this.timer){
+					clearTimeout(this.timer)
+				}
+				this.timer = setTimeout(()=>{
+					const touchY = e.touches[0].clientY - 79
+					const index = Math.floor((touchY - this.startY) / 20)
+					if(index>=0 && index< this.cities.length){
+						this.$emit('change', this.cities[index].title)
+					}
+				},100)
+				
+			}
+		},
+		handletouchEnd(e){
+			this.touchStatus = false
+		},
+	}
 }
 </script>
 
