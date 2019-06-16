@@ -3,10 +3,10 @@
 	<swiper :options="swiperOption">
       <swiper-slide v-for="(page,index) in pages" :key="index">
 	  	<div class="icon" v-for="(item,index) of page" :key="index">
-			<div class="icon-img">
+			<div class="img-icon">
 				<img :src="item.img" alt="">
 			</div>
-			<p class="icon-desc">{{item.name}}</p>
+			<p class="desc-icon">{{item.name}}</p>
 		</div>
       </swiper-slide>
       <div class="swiper-pagination" slot="pagination"></div>
@@ -60,7 +60,7 @@ export default {
 			width 25%
 			padding-bottom 25%
 			position relative
-			.icon-img
+			.img-icon
 				position absolute
 				left 0
 				right 0
@@ -72,7 +72,7 @@ export default {
 					display block
 					margin 0 auto
 					height 100%
-			.icon-desc
+			.desc-icon
 				position absolute
 				left 0
 				bottom 0

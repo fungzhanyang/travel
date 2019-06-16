@@ -9,7 +9,7 @@ import store from './store'
 import 'swiper/dist/css/swiper.css'
 import 'styles/normalize.css'
 import 'styles/border.css'
-import 'styles/iconfont.css'
+import 'styles/iconfont/iconfont.css'
 
 Vue.config.productionTip = false
 fastClick.attach(document.body)
