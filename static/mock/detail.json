@@ -1,0 +1,35 @@
+{
+	"ret": true,
+	"data": {
+		"sightName": "兵马俑",
+		"bannerImg": "//img1.qunarzz.com/sight/p0/1602/53/53cf6caed9f9b9ee90.img.jpg_600x330_ddcee9e0.jpg",
+		"gallartimgs": [
+			"//img1.qunarzz.com/sight/p0/1602/53/53cf6caed9f9b9ee90.img.jpg_600x330_ddcee9e0.jpg",
+			"//img1.qunarzz.com/sight/p0/1602/53/53cf6caed9f9b9ee90.img.jpg_600x330_ddcee9e0.jpg"
+		],
+		"categoryList": [
+			{
+				"title": "成人票",
+				"children": [
+					{
+						"title": "成人三联票",
+						"children": [
+							{
+								"title": "成人三联票-1店"
+							},
+							{
+								"title": "成人三联票-2店"
+							}
+						]
+					},
+					{
+						"title": "成人五联票"
+					}
+				]
+			},
+			{
+				"title": "学生票"
+			}
+		]
+	}
+}

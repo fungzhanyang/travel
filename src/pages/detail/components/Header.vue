@@ -63,6 +63,7 @@ export default {
 @import '~styles/varibles.styl'
 .header-fixed
 	position fixed
+	z-index 2
 	overflow hidden
 	left 0
 	top 0
