@@ -56,6 +56,9 @@ export default {
 	background-color #000
 	.wrapper
 		width 100%
+		height 0
+		padding-bottom 100%
+		overflow hidden
 		.gallary-img
 			width 100%
 		.swiper-pagination

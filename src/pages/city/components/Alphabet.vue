@@ -46,7 +46,7 @@ export default {
 					if(index>=0 && index< this.cities.length){
 						this.$emit('change', this.cities[index].title)
 					}
-				},100)
+				},10)
 				
 			}
 		},
